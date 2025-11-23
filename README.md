@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Development Status](https://img.shields.io/badge/status-alpha-orange)](https://github.com/Lostenergydrink/Hades/blob/master/docs/project/ROADMAP.md)
+[![Phase](https://img.shields.io/badge/phase-1%20complete%20%7C%202%20in%20progress-blue)](https://github.com/Lostenergydrink/Hades/blob/master/docs/project/ROADMAP.md)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Lint: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![CI](https://github.com/Lostenergydrink/Hades/workflows/Lint%20and%20Smoke%20Tests/badge.svg)](https://github.com/Lostenergydrink/Hades/actions)
@@ -10,7 +12,9 @@
 
 Named after the Greek god of the underworld, Hades brings order to the chaos beneath the surface—routing, refactoring, enforcing standards, executing commands, validating tests, and automating workflows.
 
-**🎯 Phase 1 Complete** | **🚀 Production Ready** | **📦 MIT Licensed**
+**🎯 Phase 1 Complete** | **🚧 Phase 2 In Progress** | **📦 MIT Licensed**
+
+> ⚠️ **Alpha Status**: This project is under active development. APIs may change between versions. See [ROADMAP](docs/project/ROADMAP.md) for planned features.
 
 ## The Pantheon
 
