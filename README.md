@@ -1,7 +1,16 @@
-# Hades
+# Hades 🔱
 
-Multi-agent debugging and development assistant for Windows Python projects.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Lint: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![CI](https://github.com/Lostenergydrink/Hades/workflows/Lint%20and%20Smoke%20Tests/badge.svg)](https://github.com/Lostenergydrink/Hades/actions)
+
+> **Multi-agent AI framework with mythology-themed specialists**
+
 Named after the Greek god of the underworld, Hades brings order to the chaos beneath the surface—routing, refactoring, enforcing standards, executing commands, validating tests, and automating workflows.
+
+**🎯 Phase 1 Complete** | **🚀 Production Ready** | **📦 MIT Licensed**
 
 ## The Pantheon
 
@@ -16,25 +25,35 @@ Each agent is named after a figure from Greek mythology, reflecting its role:
 | **Persephone** | Goddess of spring and rebirth | Test Runner - validation, pytest execution |
 | **Hermes** | Messenger god, swift traveler | Hermes (Web Automation) - Playwright/Puppeteer orchestration |
 
-## Quick start
+## ⚡ Quick Start
 
 ```powershell
 # Clone and setup
-cd <your-projects-directory>
-git clone https://github.com/yourusername/hades
-cd hades
+git clone https://github.com/Lostenergydrink/Hades.git
+cd Hades
 
 # Create virtual environment
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
+# Verify installation
+python scripts/check-env.ps1
+
 # Example usage
-.\launch_hades.ps1 "check syntax"
-.\launch_hades.ps1 "create launcher" --start <path-to-your-project>
-.\launch_hades.ps1 "lint webui"
-.\launch_hades.ps1 "import status"
+python scripts/main.py "check syntax"
+python scripts/main.py "lint --fix"
+python scripts/main.py "run pytest"
 ```
+
+## ✨ Features
+
+- **🎭 Six Specialized Agents** - Each with distinct responsibilities and safety guardrails
+- **🛡️ Built-in Safety Nets** - Automatic checkpointing, HITL confirmations, output sanitization
+- **📊 Structured Types** - Type-safe schemas for all agent interactions
+- **🔍 Observability** - OpenTelemetry tracing for debugging and monitoring
+- **✅ Comprehensive Testing** - Unit tests, smoke tests, and CI/CD integration
+- **📝 Extensive Documentation** - Architecture guides, API docs, and usage examples
 
 ## Architecture
 
@@ -77,12 +96,45 @@ ai-mlstudio.tracing.open
 # The orchestrator will auto-connect to http://localhost:4317 on first use.
 ```
 
-## Smoke test
+## 🧪 Testing
 
-Validate the current routing + command implementations:
+Run the test suite to validate functionality:
 
 ```powershell
-python tests_smoke.py --start <path-to-your-project>
+# Unit tests
+pytest tests/unit/
+
+# Smoke tests
+pytest tests/smoke/
+
+# Full test suite with coverage
+pytest --cov=agent_app tests/
 ```
 
-`--start` makes the smoke tasks explicit so legacy projects (e.g., StyleTTS) do not influence new work. If omitted, the script falls back to the first `default_projects` entry (currently empty). The script only prints the first few lines of each command for readability.
+## 📚 Documentation
+
+- **[Architecture Design](docs/project/AGENT_SYSTEM_DESIGN.md)** - System overview and design principles
+- **[Safety Nets](docs/guides/SAFETY_NETS_SUMMARY.md)** - Built-in protection mechanisms
+- **[Types Guide](docs/types_usage_guide.md)** - Type system and schemas
+- **[Contributing](CONTRIBUTING.md)** - Development guidelines
+- **[Roadmap](docs/project/ROADMAP.md)** - Future plans and phases
+
+## 🤝 Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+Built with:
+- [Python 3.11+](https://www.python.org/)
+- [Ruff](https://github.com/astral-sh/ruff) - Fast Python linter
+- [Black](https://github.com/psf/black) - Code formatter
+- [OpenTelemetry](https://opentelemetry.io/) - Observability framework
+
+---
+
+**Made with ⚡ by the Hades team**
