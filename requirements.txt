@@ -1,0 +1,8 @@
+agent-framework-azure-ai>=0.1.0.dev0
+ruff
+black
+mypy
+pytest
+python-dotenv
+docker
+tomli; python_version < '3.11'

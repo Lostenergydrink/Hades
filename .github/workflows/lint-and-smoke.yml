@@ -1,0 +1,65 @@
+name: Lint and Smoke Tests
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Ruff linter
+        run: |
+          ruff check agent_app/ tests/
+          # TODO: Add additional linters as needed
+
+  smoke-tests:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install coverage[toml]
+
+      - name: Run smoke tests
+        run: |
+          coverage run -m pytest tests/smoke/ -v
+          coverage xml
+
+      - name: Check for test artifacts
+        run: |
+          # Ensure no temporary files were left behind
+          if [ -d "tests/eval" ]; then
+            find tests/eval -name "*.tmp" -delete
+          fi
+
+# TODO: Add unit test job
+# TODO: Add evaluation test job (manual trigger only)
+# TODO: Configure test result publishing
+# TODO: Add code coverage reporting
+# TODO: Configure notifications for failures

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "smoke-fix-bug",
+    "request": "Fix the failing unit test in agent_app/registry.py and rerun pytest",
+    "context": {
+      "repo": "Hades",
+      "branch": "main",
+      "recent_files": ["agent_app/registry.py", "tests_smoke.py"]
+    },
+    "expected": {
+      "change_manifest": {
+        "files": [
+          {
+            "path": "agent_app/registry.py",
+            "summary": "Skip .venv/node_modules during discovery",
+            "risk": "low"
+          }
+        ],
+        "notes": "Captured checkpoint prior to edit"
+      },
+      "test_report": {
+        "runner": "pytest",
+        "status": "passed",
+        "duration_s": 42,
+        "failures": []
+      }
+    },
+    "metrics": {
+      "registry_scan_ms": 720,
+      "smoke_duration_s": 65
+    }
+  }
+]

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Checkpoints
+.apex/checkpoints/
+
+# Virtual Environments
+.venv/
+env/
+
+# Coverage
+.coverage
+
+# Test artifacts
+tests/eval/*.tmp
+
+# Metrics
+metrics/registry_scan.log
+metrics/*.log
+
+# Personal workspace
+.obsidian/

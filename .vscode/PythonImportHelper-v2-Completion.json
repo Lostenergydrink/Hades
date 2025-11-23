@@ -1,0 +1,1160 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectContext",
+        "importPath": "agent_app.context_inspector",
+        "description": "agent_app.context_inspector",
+        "isExtraImport": true,
+        "detail": "agent_app.context_inspector",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectRegistry",
+        "importPath": "agent_app.registry",
+        "description": "agent_app.registry",
+        "isExtraImport": true,
+        "detail": "agent_app.registry",
+        "documentation": {}
+    },
+    {
+        "label": "tomllib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tomllib",
+        "description": "tomllib",
+        "detail": "tomllib",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Lock",
+        "importPath": "threading",
+        "description": "threading",
+        "isExtraImport": true,
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.util",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.util",
+        "description": "importlib.util",
+        "detail": "importlib.util",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "shlex",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shlex",
+        "description": "shlex",
+        "detail": "shlex",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "run_basic_task",
+        "importPath": "agent_app.agent_runner",
+        "description": "agent_app.agent_runner",
+        "isExtraImport": true,
+        "detail": "agent_app.agent_runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_basic_task",
+        "importPath": "agent_app.agent_runner",
+        "description": "agent_app.agent_runner",
+        "isExtraImport": true,
+        "detail": "agent_app.agent_runner",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG",
+        "importPath": "agent_app.config",
+        "description": "agent_app.config",
+        "isExtraImport": true,
+        "detail": "agent_app.config",
+        "documentation": {}
+    },
+    {
+        "label": "StyxAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "class StyxAgent(ToolLimitedAgent):\n\tname = \"code_refactor\"\n\tdescription = \"Owns read/write code changes, AST inspections, and launchers.\"\n\tallowed_tools = (\"apply_patch\", \"file_system\", \"lsp_symbols\")\n\tguardrails = (\n\t\t\"Cannot execute shell commands.\",\n\t\t\"Cannot run git operations or manage dependencies.\",\n\t\t\"Must limit edits to requested scope.\",\n\t)\n\tdef handle(self, request: AgentRequest) -> AgentResult:",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\tname",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\tname = \"code_refactor\"\n\tdescription = \"Owns read/write code changes, AST inspections, and launchers.\"\n\tallowed_tools = (\"apply_patch\", \"file_system\", \"lsp_symbols\")\n\tguardrails = (\n\t\t\"Cannot execute shell commands.\",\n\t\t\"Cannot run git operations or manage dependencies.\",\n\t\t\"Must limit edits to requested scope.\",\n\t)\n\tdef handle(self, request: AgentRequest) -> AgentResult:\n\t\tnormalized = request.normalized_task",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\tdescription",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\tdescription = \"Owns read/write code changes, AST inspections, and launchers.\"\n\tallowed_tools = (\"apply_patch\", \"file_system\", \"lsp_symbols\")\n\tguardrails = (\n\t\t\"Cannot execute shell commands.\",\n\t\t\"Cannot run git operations or manage dependencies.\",\n\t\t\"Must limit edits to requested scope.\",\n\t)\n\tdef handle(self, request: AgentRequest) -> AgentResult:\n\t\tnormalized = request.normalized_task\n\t\ttarget = request.registry.default_entrypoint()",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\tallowed_tools",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\tallowed_tools = (\"apply_patch\", \"file_system\", \"lsp_symbols\")\n\tguardrails = (\n\t\t\"Cannot execute shell commands.\",\n\t\t\"Cannot run git operations or manage dependencies.\",\n\t\t\"Must limit edits to requested scope.\",\n\t)\n\tdef handle(self, request: AgentRequest) -> AgentResult:\n\t\tnormalized = request.normalized_task\n\t\ttarget = request.registry.default_entrypoint()\n\t\tif normalized.startswith(\"check syntax\"):",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\tguardrails",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\tguardrails = (\n\t\t\"Cannot execute shell commands.\",\n\t\t\"Cannot run git operations or manage dependencies.\",\n\t\t\"Must limit edits to requested scope.\",\n\t)\n\tdef handle(self, request: AgentRequest) -> AgentResult:\n\t\tnormalized = request.normalized_task\n\t\ttarget = request.registry.default_entrypoint()\n\t\tif normalized.startswith(\"check syntax\"):\n\t\t\treturn self._handle_syntax(target)",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tnormalized",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\tnormalized = request.normalized_task\n\t\ttarget = request.registry.default_entrypoint()\n\t\tif normalized.startswith(\"check syntax\"):\n\t\t\treturn self._handle_syntax(target)\n\t\tif \"import\" in normalized:\n\t\t\treturn self._handle_imports(target, request)\n\t\tif \"launcher\" in normalized:\n\t\t\treturn self._handle_launcher(request)\n\t\treturn AgentResult(\n\t\t\toutput=(",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttarget",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\ttarget = request.registry.default_entrypoint()\n\t\tif normalized.startswith(\"check syntax\"):\n\t\t\treturn self._handle_syntax(target)\n\t\tif \"import\" in normalized:\n\t\t\treturn self._handle_imports(target, request)\n\t\tif \"launcher\" in normalized:\n\t\t\treturn self._handle_launcher(request)\n\t\treturn AgentResult(\n\t\t\toutput=(\n\t\t\t\t\"Code agent does not yet support this task. \"",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tissues",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\tissues = check_syntax(target)\n\t\tif not issues:\n\t\t\treturn AgentResult(output=f\"No syntax errors detected in {target}.\")\n\t\trendered = \"\\n\".join(\n\t\t\tf\"{issue.path}:{issue.line}:{issue.column} {issue.message}\"\n\t\t\tfor issue in issues\n\t\t)\n\t\treturn AgentResult(output=rendered, success=False, metadata={\"issues\": len(issues)})\n\tdef _handle_imports(self, target: Path, request: AgentRequest) -> AgentResult:\n\t\treport = analyze_imports(target, request.context)",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\trendered",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\trendered = \"\\n\".join(\n\t\t\tf\"{issue.path}:{issue.line}:{issue.column} {issue.message}\"\n\t\t\tfor issue in issues\n\t\t)\n\t\treturn AgentResult(output=rendered, success=False, metadata={\"issues\": len(issues)})\n\tdef _handle_imports(self, target: Path, request: AgentRequest) -> AgentResult:\n\t\treport = analyze_imports(target, request.context)\n\t\treturn AgentResult(output=format_import_report(report), metadata={\"missing\": len(report.missing)})\n\tdef _handle_launcher(self, request: AgentRequest) -> AgentResult:\n\t\tctx = request.context",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\treport",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\treport = analyze_imports(target, request.context)\n\t\treturn AgentResult(output=format_import_report(report), metadata={\"missing\": len(report.missing)})\n\tdef _handle_launcher(self, request: AgentRequest) -> AgentResult:\n\t\tctx = request.context\n\t\tlaunch_path = ctx.root / \"launch_generated.ps1\"\n\t\twrite_launcher(ctx, launch_path)\n\t\treturn AgentResult(\n\t\t\toutput=f\"Launcher refreshed: {launch_path} and {launch_path.with_suffix('.bat')}\",\n\t\t\tmetadata={\"launcher\": str(launch_path)},\n\t\t)",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tctx",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\tctx = request.context\n\t\tlaunch_path = ctx.root / \"launch_generated.ps1\"\n\t\twrite_launcher(ctx, launch_path)\n\t\treturn AgentResult(\n\t\t\toutput=f\"Launcher refreshed: {launch_path} and {launch_path.with_suffix('.bat')}\",\n\t\t\tmetadata={\"launcher\": str(launch_path)},\n\t\t)",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlaunch_path",
+        "kind": 5,
+        "importPath": "agent_app.agents.code.styx_agent",
+        "description": "agent_app.agents.code.styx_agent",
+        "peekOfCode": "\t\tlaunch_path = ctx.root / \"launch_generated.ps1\"\n\t\twrite_launcher(ctx, launch_path)\n\t\treturn AgentResult(\n\t\t\toutput=f\"Launcher refreshed: {launch_path} and {launch_path.with_suffix('.bat')}\",\n\t\t\tmetadata={\"launcher\": str(launch_path)},\n\t\t)",
+        "detail": "agent_app.agents.code.styx_agent",
+        "documentation": {}
+    },
+    {
+        "label": "FuriesAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.lint.furies_agent",
+        "description": "agent_app.agents.lint.furies_agent",
+        "peekOfCode": "class FuriesAgent(ToolLimitedAgent):\n    name = \"lint_format\"\n    description = \"Runs Ruff/Black/Prettier and manages formatting configs.\"\n    allowed_tools = (\"ruff\", \"black\", \"prettier\", \"config_writer\")\n    guardrails = (\n        \"Must limit changes to formatting or lint configs.\",\n        \"Cannot modify business logic files directly outside of formatter outputs.\",\n        \"No shell commands beyond lint/format tooling.\",\n    )\n    def handle(self, request: AgentRequest) -> AgentResult:",
+        "detail": "agent_app.agents.lint.furies_agent",
+        "documentation": {}
+    },
+    {
+        "label": "RoutingRule",
+        "kind": 6,
+        "importPath": "agent_app.agents.router.hades_agent",
+        "description": "agent_app.agents.router.hades_agent",
+        "peekOfCode": "class RoutingRule:\n    keywords: tuple[str, ...]\n    target_agent: str\n    reasoning: str\n    confidence: float = 0.85\n    def matches(self, text: str) -> bool:\n        return all(keyword in text for keyword in self.keywords)\nclass HadesAgent(ToolLimitedAgent, HadesAgentProtocol):\n    name = \"router\"\n    description = \"Decides which specialist agent should handle a request.\"",
+        "detail": "agent_app.agents.router.hades_agent",
+        "documentation": {}
+    },
+    {
+        "label": "HadesAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.router.hades_agent",
+        "description": "agent_app.agents.router.hades_agent",
+        "peekOfCode": "class HadesAgent(ToolLimitedAgent, HadesAgentProtocol):\n    name = \"router\"\n    description = \"Decides which specialist agent should handle a request.\"\n    allowed_tools = (\"registry\",)\n    guardrails = (\n        \"Read-only access to repository metadata.\",\n        \"Cannot modify files or run shell commands.\",\n    )\n    def __init__(self, specialists: dict[str, ToolLimitedAgent]) -> None:\n        super().__init__()",
+        "detail": "agent_app.agents.router.hades_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ThanatosAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.terminal.thanatos_agent",
+        "description": "agent_app.agents.terminal.thanatos_agent",
+        "peekOfCode": "class ThanatosAgent(ToolLimitedAgent):\n    name = \"terminal_ops\"\n    description = \"Runs safe terminal commands, env checks, and package installs with confirmation.\"\n    allowed_tools = (\"shell_exec\", \"process_inspector\")\n    guardrails = (\n        \"Requires confirmation for destructive commands (rm/mv/chmod/chown).\",\n        \"Requires confirmation for package installs.\",\n        \"Defaults to dry-run when supported.\",\n    )\n    def __init__(self) -> None:",
+        "detail": "agent_app.agents.terminal.thanatos_agent",
+        "documentation": {}
+    },
+    {
+        "label": "TestRunnerAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.test.persephone_agent",
+        "description": "agent_app.agents.test.persephone_agent",
+        "peekOfCode": "class TestRunnerAgent(ToolLimitedAgent):\n    name = \"test_runner\"\n    description = \"Owns pytest/npm test execution, coverage parsing, and flake tracking.\"\n    allowed_tools = (\"pytest\", \"npm_test\", \"coverage\")\n    guardrails = (\n        \"May only edit tests by collaborating with the code agent.\",\n        \"Must record parsed failures before returning.\",\n        \"Does not run arbitrary shell commands beyond test runners.\",\n    )\n    def handle(self, request: AgentRequest) -> AgentResult:",
+        "detail": "agent_app.agents.test.persephone_agent",
+        "documentation": {}
+    },
+    {
+        "label": "HermesAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.web_automation.hermes_agent",
+        "description": "agent_app.agents.web_automation.hermes_agent",
+        "peekOfCode": "class HermesAgent(ToolLimitedAgent):\n    name = \"web_automation\"\n    description = \"Maintains Playwright/Puppeteer suites, selectors, and traces.\"\n    allowed_tools = (\"playwright\", \"puppeteer\", \"trace_viewer\")\n    guardrails = (\n        \"No general shell commands; only automation tooling.\",\n        \"Stores artifacts under tests/e2e/.artifacts.\",\n        \"Reports selector diffs for every change.\",\n    )\n    def handle(self, request: AgentRequest) -> AgentResult:",
+        "detail": "agent_app.agents.web_automation.hermes_agent",
+        "documentation": {}
+    },
+    {
+        "label": "AgentRequest",
+        "kind": 6,
+        "importPath": "agent_app.agents.base",
+        "description": "agent_app.agents.base",
+        "peekOfCode": "class AgentRequest:\n    \"\"\"Normalized payload every agent receives.\"\"\"\n    task: str\n    context: ProjectContext\n    registry: ProjectRegistry\n    @property\n    def normalized_task(self) -> str:\n        return self.task.lower().strip()\n@dataclass(slots=True)\nclass AgentResult:",
+        "detail": "agent_app.agents.base",
+        "documentation": {}
+    },
+    {
+        "label": "AgentResult",
+        "kind": 6,
+        "importPath": "agent_app.agents.base",
+        "description": "agent_app.agents.base",
+        "peekOfCode": "class AgentResult:\n    \"\"\"Envelope describing the output of an agent.\"\"\"\n    output: str\n    success: bool = True\n    metadata: dict[str, Any] = field(default_factory=dict)\n    def __post_init__(self) -> None:\n        if self.metadata is None:\n            object.__setattr__(self, \"metadata\", {})\n@dataclass(slots=True)\nclass RouteDecision:",
+        "detail": "agent_app.agents.base",
+        "documentation": {}
+    },
+    {
+        "label": "RouteDecision",
+        "kind": 6,
+        "importPath": "agent_app.agents.base",
+        "description": "agent_app.agents.base",
+        "peekOfCode": "class RouteDecision:\n    \"\"\"Router decision shared back to the orchestrator for execution.\"\"\"\n    target_agent: str\n    confidence: float\n    reasoning: str\n    plan: list[str] = field(default_factory=list)\nclass ToolLimitedAgent(ABC):\n    \"\"\"Base class that enforces metadata + simple guardrails per agent.\"\"\"\n    name: str\n    description: str",
+        "detail": "agent_app.agents.base",
+        "documentation": {}
+    },
+    {
+        "label": "ToolLimitedAgent",
+        "kind": 6,
+        "importPath": "agent_app.agents.base",
+        "description": "agent_app.agents.base",
+        "peekOfCode": "class ToolLimitedAgent(ABC):\n    \"\"\"Base class that enforces metadata + simple guardrails per agent.\"\"\"\n    name: str\n    description: str\n    allowed_tools: tuple[str, ...]\n    guardrails: tuple[str, ...]\n    def __init__(self) -> None:\n        if not getattr(self, \"name\", None):  # pragma: no cover - sanity check\n            raise ValueError(\"Agent subclasses must define a name\")\n    @abstractmethod",
+        "detail": "agent_app.agents.base",
+        "documentation": {}
+    },
+    {
+        "label": "HadesAgentProtocol",
+        "kind": 6,
+        "importPath": "agent_app.agents.base",
+        "description": "agent_app.agents.base",
+        "peekOfCode": "class HadesAgentProtocol(ABC):\n    \"\"\"Protocol used by the orchestrator to obtain routing decisions.\"\"\"\n    @abstractmethod\n    def decide(self, request: AgentRequest) -> RouteDecision:\n        raise NotImplementedError\n    @abstractmethod\n    def handle(self, request: AgentRequest) -> AgentResult:\n        \"\"\"Routers can also surface clarifying questions straight to the user.\"\"\"\n        raise NotImplementedError",
+        "detail": "agent_app.agents.base",
+        "documentation": {}
+    },
+    {
+        "label": "run_basic_task",
+        "kind": 2,
+        "importPath": "agent_app.agent_runner",
+        "description": "agent_app.agent_runner",
+        "peekOfCode": "def run_basic_task(task: str, start: Path | None = None) -> str:\n    ctx = load_context(start)\n    if ctx is None:\n        return \"No project context found on E:/AI.\"\n    result = _ORCHESTRATOR.run(task, context=ctx)\n    return _format_result(result)",
+        "detail": "agent_app.agent_runner",
+        "documentation": {}
+    },
+    {
+        "label": "_ORCHESTRATOR",
+        "kind": 5,
+        "importPath": "agent_app.agent_runner",
+        "description": "agent_app.agent_runner",
+        "peekOfCode": "_ORCHESTRATOR = AgentOrchestrator()\ndef _format_result(result: AgentResult) -> str:\n    plan = result.metadata.get(\"plan\") if result.metadata else None\n    plan_text = \"\"\n    if plan:\n        plan_text = \"\\nPlan executed: \" + \" -> \".join(plan)\n    router_info = \"\"\n    if result.metadata:\n        reason = result.metadata.get(\"router_reasoning\")\n        confidence = result.metadata.get(\"router_confidence\")",
+        "detail": "agent_app.agent_runner",
+        "documentation": {}
+    },
+    {
+        "label": "AgentConfig",
+        "kind": 6,
+        "importPath": "agent_app.config",
+        "description": "agent_app.config",
+        "peekOfCode": "class AgentConfig:\n    apex_root: Path = E_DRIVE_ROOT / \"Hades\"\n    # Intentionally empty to avoid bias toward historical projects. Override via\n    # env vars or CLI arguments when launching the agent.\n    default_projects: tuple[Path, ...] = ()\n    @classmethod\n    def from_toml(cls, config_path: Path | None = None) -> \"AgentConfig\":\n        \"\"\"Create AgentConfig from TOML file.\"\"\"\n        toml_config = load_config_from_toml(config_path)\n        config = cls()",
+        "detail": "agent_app.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_config_from_toml",
+        "kind": 2,
+        "importPath": "agent_app.config",
+        "description": "agent_app.config",
+        "peekOfCode": "def load_config_from_toml(config_path: Path | None = None) -> dict:\n    \"\"\"Load configuration from TOML file.\"\"\"\n    if config_path is None:\n        config_path = E_DRIVE_ROOT / \"Hades\" / \"config\" / \"hades_config.toml\"\n    if not config_path.exists():\n        return {}\n    with open(config_path, \"rb\") as f:\n        return tomllib.load(f)\n@dataclass\nclass AgentConfig:",
+        "detail": "agent_app.config",
+        "documentation": {}
+    },
+    {
+        "label": "E_DRIVE_ROOT",
+        "kind": 5,
+        "importPath": "agent_app.config",
+        "description": "agent_app.config",
+        "peekOfCode": "E_DRIVE_ROOT = Path(\"E:/AI\").resolve()\ndef load_config_from_toml(config_path: Path | None = None) -> dict:\n    \"\"\"Load configuration from TOML file.\"\"\"\n    if config_path is None:\n        config_path = E_DRIVE_ROOT / \"Hades\" / \"config\" / \"hades_config.toml\"\n    if not config_path.exists():\n        return {}\n    with open(config_path, \"rb\") as f:\n        return tomllib.load(f)\n@dataclass",
+        "detail": "agent_app.config",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG",
+        "kind": 5,
+        "importPath": "agent_app.config",
+        "description": "agent_app.config",
+        "peekOfCode": "CONFIG = AgentConfig.from_toml()",
+        "detail": "agent_app.config",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectContext",
+        "kind": 6,
+        "importPath": "agent_app.context_inspector",
+        "description": "agent_app.context_inspector",
+        "peekOfCode": "class ProjectContext:\n    root: Path\n    venv: Path | None\n    requirements: Path | None\ndef find_project_root(start: Path | None = None) -> Path | None:\n    path = start or Path.cwd()\n    path = path.resolve()\n    for parent in (path, *path.parents):\n        if any((parent / marker).exists() for marker in PROJECT_MARKERS):\n            return parent",
+        "detail": "agent_app.context_inspector",
+        "documentation": {}
+    },
+    {
+        "label": "find_project_root",
+        "kind": 2,
+        "importPath": "agent_app.context_inspector",
+        "description": "agent_app.context_inspector",
+        "peekOfCode": "def find_project_root(start: Path | None = None) -> Path | None:\n    path = start or Path.cwd()\n    path = path.resolve()\n    for parent in (path, *path.parents):\n        if any((parent / marker).exists() for marker in PROJECT_MARKERS):\n            return parent\n    for candidate in CONFIG.default_projects:\n        if candidate.exists():\n            return candidate\n    return None",
+        "detail": "agent_app.context_inspector",
+        "documentation": {}
+    },
+    {
+        "label": "guess_venv",
+        "kind": 2,
+        "importPath": "agent_app.context_inspector",
+        "description": "agent_app.context_inspector",
+        "peekOfCode": "def guess_venv(root: Path) -> Path | None:\n    candidates = [\n        CONFIG.apex_root.parent / \"venvs\" / f\"{root.name}\",\n        root / \".venv\",\n    ]\n    for base in candidates:\n        scripts_dir = base / \"Scripts\"\n        if (scripts_dir / \"python.exe\").exists():\n            return base\n    return None",
+        "detail": "agent_app.context_inspector",
+        "documentation": {}
+    },
+    {
+        "label": "load_context",
+        "kind": 2,
+        "importPath": "agent_app.context_inspector",
+        "description": "agent_app.context_inspector",
+        "peekOfCode": "def load_context(start: Path | None = None) -> ProjectContext | None:\n    root = find_project_root(start)\n    if root is None:\n        return None\n    venv = guess_venv(root)\n    req = root / \"requirements.txt\"\n    return ProjectContext(root=root, venv=venv, requirements=req if req.exists() else None)",
+        "detail": "agent_app.context_inspector",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_MARKERS",
+        "kind": 5,
+        "importPath": "agent_app.context_inspector",
+        "description": "agent_app.context_inspector",
+        "peekOfCode": "PROJECT_MARKERS = {\"requirements.txt\", \"pyproject.toml\", \"main.py\", \".git\"}\n@dataclass\nclass ProjectContext:\n    root: Path\n    venv: Path | None\n    requirements: Path | None\ndef find_project_root(start: Path | None = None) -> Path | None:\n    path = start or Path.cwd()\n    path = path.resolve()\n    for parent in (path, *path.parents):",
+        "detail": "agent_app.context_inspector",
+        "documentation": {}
+    },
+    {
+        "label": "build_env_for_context",
+        "kind": 2,
+        "importPath": "agent_app.env_utils",
+        "description": "agent_app.env_utils",
+        "peekOfCode": "def build_env_for_context(ctx: ProjectContext) -> dict[str, str]:\n    \"\"\"Return an environment dict that respects the project's venv.\"\"\"\n    env = os.environ.copy()\n    if ctx.venv is not None:\n        scripts = ctx.venv / \"Scripts\"\n        env[\"PATH\"] = f\"{scripts};{env.get('PATH', '')}\"\n        env[\"VIRTUAL_ENV\"] = str(ctx.venv)\n    return env\ndef resolve_executable(executable: str, ctx: ProjectContext) -> str:\n    \"\"\"Resolve an executable within the project's venv if one exists.\"\"\"",
+        "detail": "agent_app.env_utils",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_executable",
+        "kind": 2,
+        "importPath": "agent_app.env_utils",
+        "description": "agent_app.env_utils",
+        "peekOfCode": "def resolve_executable(executable: str, ctx: ProjectContext) -> str:\n    \"\"\"Resolve an executable within the project's venv if one exists.\"\"\"\n    if ctx.venv is not None:\n        candidate = ctx.venv / \"Scripts\" / f\"{executable}.exe\"\n        if candidate.exists():\n            return str(candidate)\n    return executable",
+        "detail": "agent_app.env_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_metrics_path",
+        "kind": 2,
+        "importPath": "agent_app.metrics_logger",
+        "description": "agent_app.metrics_logger",
+        "peekOfCode": "def get_metrics_path() -> Path:\n    \"\"\"Get the path to the metrics directory.\"\"\"\n    return Path(__file__).parent.parent / \"metrics\"\ndef log_registry_scan(duration_ms: float, file_count: int, metadata: dict[str, Any] | None = None) -> None:\n    \"\"\"\n    Log a registry scan metric.\n    Args:\n        duration_ms: Duration of the scan in milliseconds\n        file_count: Number of files scanned\n        metadata: Additional metadata to log",
+        "detail": "agent_app.metrics_logger",
+        "documentation": {}
+    },
+    {
+        "label": "log_registry_scan",
+        "kind": 2,
+        "importPath": "agent_app.metrics_logger",
+        "description": "agent_app.metrics_logger",
+        "peekOfCode": "def log_registry_scan(duration_ms: float, file_count: int, metadata: dict[str, Any] | None = None) -> None:\n    \"\"\"\n    Log a registry scan metric.\n    Args:\n        duration_ms: Duration of the scan in milliseconds\n        file_count: Number of files scanned\n        metadata: Additional metadata to log\n    \"\"\"\n    metrics_file = get_metrics_path() / \"registry_scan.log\"\n    entry = {",
+        "detail": "agent_app.metrics_logger",
+        "documentation": {}
+    },
+    {
+        "label": "log_agent_execution",
+        "kind": 2,
+        "importPath": "agent_app.metrics_logger",
+        "description": "agent_app.metrics_logger",
+        "peekOfCode": "def log_agent_execution(\n    agent_name: str,\n    duration_ms: float,\n    success: bool,\n    metadata: dict[str, Any] | None = None\n) -> None:\n    \"\"\"\n    Log an agent execution metric.\n    Args:\n        agent_name: Name of the agent",
+        "detail": "agent_app.metrics_logger",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_tracing",
+        "kind": 2,
+        "importPath": "agent_app.observability",
+        "description": "agent_app.observability",
+        "peekOfCode": "def ensure_tracing(otlp_endpoint: str = \"http://localhost:4317\") -> None:\n    \"\"\"Idempotently wires up Agent Framework tracing via OpenTelemetry.\"\"\"\n    global _CONFIGURED\n    if _CONFIGURED:\n        return\n    with _LOCK:\n        if _CONFIGURED:\n            return\n        if setup_observability is None:\n            _LOGGER.debug(\"agent-framework tracing unavailable; setup_observability import failed\")",
+        "detail": "agent_app.observability",
+        "documentation": {}
+    },
+    {
+        "label": "_LOGGER",
+        "kind": 5,
+        "importPath": "agent_app.observability",
+        "description": "agent_app.observability",
+        "peekOfCode": "_LOGGER = logging.getLogger(__name__)\n_CONFIGURED = False\n_LOCK = Lock()\ndef ensure_tracing(otlp_endpoint: str = \"http://localhost:4317\") -> None:\n    \"\"\"Idempotently wires up Agent Framework tracing via OpenTelemetry.\"\"\"\n    global _CONFIGURED\n    if _CONFIGURED:\n        return\n    with _LOCK:\n        if _CONFIGURED:",
+        "detail": "agent_app.observability",
+        "documentation": {}
+    },
+    {
+        "label": "_CONFIGURED",
+        "kind": 5,
+        "importPath": "agent_app.observability",
+        "description": "agent_app.observability",
+        "peekOfCode": "_CONFIGURED = False\n_LOCK = Lock()\ndef ensure_tracing(otlp_endpoint: str = \"http://localhost:4317\") -> None:\n    \"\"\"Idempotently wires up Agent Framework tracing via OpenTelemetry.\"\"\"\n    global _CONFIGURED\n    if _CONFIGURED:\n        return\n    with _LOCK:\n        if _CONFIGURED:\n            return",
+        "detail": "agent_app.observability",
+        "documentation": {}
+    },
+    {
+        "label": "_LOCK",
+        "kind": 5,
+        "importPath": "agent_app.observability",
+        "description": "agent_app.observability",
+        "peekOfCode": "_LOCK = Lock()\ndef ensure_tracing(otlp_endpoint: str = \"http://localhost:4317\") -> None:\n    \"\"\"Idempotently wires up Agent Framework tracing via OpenTelemetry.\"\"\"\n    global _CONFIGURED\n    if _CONFIGURED:\n        return\n    with _LOCK:\n        if _CONFIGURED:\n            return\n        if setup_observability is None:",
+        "detail": "agent_app.observability",
+        "documentation": {}
+    },
+    {
+        "label": "AgentOrchestrator",
+        "kind": 6,
+        "importPath": "agent_app.orchestrator",
+        "description": "agent_app.orchestrator",
+        "peekOfCode": "class AgentOrchestrator:\n    \"\"\"High-level coordinator that wires the router to specialist agents.\"\"\"\n    def __init__(self, enable_tracing: bool = True) -> None:\n        self._enable_tracing = enable_tracing\n        self._router: HadesAgent | None = None\n        self._agents: Dict[str, ToolLimitedAgent] = {}\n    def _lazy_init(self) -> None:\n        if self._agents:\n            return\n        self._agents = {",
+        "detail": "agent_app.orchestrator",
+        "documentation": {}
+    },
+    {
+        "label": "Issue",
+        "kind": 6,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "class Issue:\n    path: Path\n    line: int\n    column: int\n    message: str\n    kind: str = \"error\"\n@dataclass\nclass ImportStatus:\n    module: str\n    present: bool",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ImportStatus",
+        "kind": 6,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "class ImportStatus:\n    module: str\n    present: bool\n    resolved_path: Path | None\n@dataclass\nclass ImportReport:\n    target: Path\n    statuses: Sequence[ImportStatus]\n    @property\n    def missing(self) -> list[ImportStatus]:",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ImportReport",
+        "kind": 6,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "class ImportReport:\n    target: Path\n    statuses: Sequence[ImportStatus]\n    @property\n    def missing(self) -> list[ImportStatus]:\n        return [status for status in self.statuses if not status.present]\ndef check_syntax(path: Path) -> Sequence[Issue]:\n    text = path.read_text(encoding=\"utf-8\")\n    try:\n        ast.parse(text, filename=str(path))",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "check_syntax",
+        "kind": 2,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "def check_syntax(path: Path) -> Sequence[Issue]:\n    text = path.read_text(encoding=\"utf-8\")\n    try:\n        ast.parse(text, filename=str(path))\n        return []\n    except SyntaxError as e:  # pragma: no cover - simple mapping\n        return [\n            Issue(\n                path=path,\n                line=e.lineno or 0,",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "run_ruff",
+        "kind": 2,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "def run_ruff(path: Path, ctx: ProjectContext) -> str:\n    cmd = [resolve_executable(\"ruff\", ctx), \"check\", str(path)]\n    result = _run_in_venv(cmd, ctx)\n    return (result.stdout or \"\") + (result.stderr or \"\")\ndef lint_with_ruff(ctx: ProjectContext, targets: Iterable[Path] | None = None, fix: bool = False) -> str:\n    target_args = [str(path) for path in (targets or [ctx.root])]\n    cmd = [resolve_executable(\"ruff\", ctx), \"check\", *target_args]\n    if fix:\n        cmd.append(\"--fix\")\n    result = _run_in_venv(cmd, ctx)",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "lint_with_ruff",
+        "kind": 2,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "def lint_with_ruff(ctx: ProjectContext, targets: Iterable[Path] | None = None, fix: bool = False) -> str:\n    target_args = [str(path) for path in (targets or [ctx.root])]\n    cmd = [resolve_executable(\"ruff\", ctx), \"check\", *target_args]\n    if fix:\n        cmd.append(\"--fix\")\n    result = _run_in_venv(cmd, ctx)\n    combined = (result.stdout or \"\") + (result.stderr or \"\")\n    if result.returncode == 0 and not combined.strip():\n        return \"Ruff check passed with no findings.\"\n    return combined",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_imports",
+        "kind": 2,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "def analyze_imports(path: Path, ctx: ProjectContext) -> ImportReport:\n    tree = ast.parse(path.read_text(encoding=\"utf-8\"), filename=str(path))\n    modules: set[str] = set()\n    for node in ast.walk(tree):\n        if isinstance(node, ast.Import):\n            for alias in node.names:\n                modules.add(alias.name.split(\".\")[0])\n        elif isinstance(node, ast.ImportFrom):\n            if node.level == 0 and node.module:\n                modules.add(node.module.split(\".\")[0])",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "format_import_report",
+        "kind": 2,
+        "importPath": "agent_app.python_tools",
+        "description": "agent_app.python_tools",
+        "peekOfCode": "def format_import_report(report: ImportReport) -> str:\n    lines = [f\"Import analysis for {report.target}:\"]\n    for status in report.statuses:\n        if status.present:\n            if status.resolved_path is not None:\n                lines.append(f\"  ✓ {status.module} -> {status.resolved_path}\")\n            else:\n                lines.append(f\"  ✓ {status.module} (available in interpreter)\")\n        else:\n            lines.append(f\"  ✗ {status.module} (not found in project; install or add path)\")",
+        "detail": "agent_app.python_tools",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrySummary",
+        "kind": 6,
+        "importPath": "agent_app.registry",
+        "description": "agent_app.registry",
+        "peekOfCode": "class RegistrySummary:\n    root: Path\n    venv: Path | None\n    requirements: Path | None\n    recent_python: Sequence[Path]\n    def to_lines(self) -> list[str]:\n        lines = [f\"root: {self.root}\"]\n        if self.venv:\n            lines.append(f\"venv: {self.venv}\")\n        if self.requirements:",
+        "detail": "agent_app.registry",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectRegistry",
+        "kind": 6,
+        "importPath": "agent_app.registry",
+        "description": "agent_app.registry",
+        "peekOfCode": "class ProjectRegistry:\n    \"\"\"Cache of cheap project metadata shared across agents.\"\"\"\n    def __init__(self, context: ProjectContext) -> None:\n        self._context = context\n        self._python_cache: list[Path] | None = None\n    @property\n    def context(self) -> ProjectContext:\n        return self._context\n    @property\n    def root(self) -> Path:",
+        "detail": "agent_app.registry",
+        "documentation": {}
+    },
+    {
+        "label": "generate_project_launcher_ps1",
+        "kind": 2,
+        "importPath": "agent_app.script_tools",
+        "description": "agent_app.script_tools",
+        "peekOfCode": "def generate_project_launcher_ps1(ctx: ProjectContext) -> str:\n    venv_path = ctx.venv or (ctx.root / \".venv\")\n    python_path = venv_path / \"Scripts\" / \"python.exe\"\n    entry_point = _entry_point(ctx)\n    lines = [\n        \"$ErrorActionPreference = 'Stop'\",\n        f\"$projectRoot = '{ctx.root.as_posix()}'\",\n        f\"$venvPath = '{venv_path.as_posix()}'\",\n        \"if (-not (Test-Path \\\"$venvPath/Scripts/python.exe\\\")) {\",\n        \"    python -m venv $venvPath\",",
+        "detail": "agent_app.script_tools",
+        "documentation": {}
+    },
+    {
+        "label": "generate_project_launcher_bat",
+        "kind": 2,
+        "importPath": "agent_app.script_tools",
+        "description": "agent_app.script_tools",
+        "peekOfCode": "def generate_project_launcher_bat(ctx: ProjectContext) -> str:\n    venv_path = ctx.venv or (ctx.root / \".venv\")\n    entry_point = _entry_point(ctx)\n    lines = [\n        \"@echo off\",\n        \"setlocal enableextensions\",\n        f\"set \\\"PROJECT_ROOT={_as_windows_path(ctx.root)}\\\"\",\n        f\"set \\\"VENV_PATH={_as_windows_path(venv_path)}\\\"\",\n        \"if not exist \\\"%VENV_PATH%\\\\Scripts\\\\python.exe\\\" (\",\n        \"    python -m venv \\\"%VENV_PATH%\\\"\",",
+        "detail": "agent_app.script_tools",
+        "documentation": {}
+    },
+    {
+        "label": "write_launcher",
+        "kind": 2,
+        "importPath": "agent_app.script_tools",
+        "description": "agent_app.script_tools",
+        "peekOfCode": "def write_launcher(ctx: ProjectContext, output: Path) -> None:\n    output.write_text(generate_project_launcher_ps1(ctx), encoding=\"utf-8\")\n    bat_path = output.with_suffix(\".bat\")\n    bat_path.write_text(generate_project_launcher_bat(ctx), encoding=\"utf-8\")",
+        "detail": "agent_app.script_tools",
+        "documentation": {}
+    },
+    {
+        "label": "CommandAssessment",
+        "kind": 6,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "class CommandAssessment:\n    status: str  # \"allow\", \"confirm\", \"block\"\n    reason: str | None = None\n@dataclass(slots=True)\nclass CommandRunResult:\n    command: Sequence[str]\n    returncode: int\n    stdout: str\n    stderr: str\n    duration: float",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "CommandRunResult",
+        "kind": 6,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "class CommandRunResult:\n    command: Sequence[str]\n    returncode: int\n    stdout: str\n    stderr: str\n    duration: float\n_IS_WINDOWS = os.name == \"nt\"\nclass CommandSafetyChecker:\n    \"\"\"Lightweight heuristic guardrail for terminal commands.\"\"\"\n    _BLOCKED = {",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "CommandSafetyChecker",
+        "kind": 6,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "class CommandSafetyChecker:\n    \"\"\"Lightweight heuristic guardrail for terminal commands.\"\"\"\n    _BLOCKED = {\n        \"format\",\n        \"mkfs\",\n        \"diskpart\",\n        \"shutdown\",\n        \"reboot\",\n    }\n    _CONFIRM_COMMANDS = {",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "strip_confirmation",
+        "kind": 2,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "def strip_confirmation(text: str) -> tuple[str, bool]:\n    match = _CONFIRM_PATTERN.search(text)\n    if not match:\n        return text, False\n    cleaned = text[: match.start()] + text[match.end() :]\n    return cleaned.strip(), True\ndef parse_command_text(text: str) -> list[str]:\n    \"\"\"Return argv parsed from the provided command text.\"\"\"\n    argv = shlex.split(text, posix=not _IS_WINDOWS)\n    if not argv:",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "parse_command_text",
+        "kind": 2,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "def parse_command_text(text: str) -> list[str]:\n    \"\"\"Return argv parsed from the provided command text.\"\"\"\n    argv = shlex.split(text, posix=not _IS_WINDOWS)\n    if not argv:\n        raise ValueError(\"No executable provided\")\n    return argv\ndef run_shell_command(argv: Sequence[str], ctx: ProjectContext) -> CommandRunResult:\n    start = time.perf_counter()\n    try:\n        completed = subprocess.run(  # nosec - command vetted by guardrails",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "run_shell_command",
+        "kind": 2,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "def run_shell_command(argv: Sequence[str], ctx: ProjectContext) -> CommandRunResult:\n    start = time.perf_counter()\n    try:\n        completed = subprocess.run(  # nosec - command vetted by guardrails\n            list(argv),\n            cwd=ctx.root,\n            env=build_env_for_context(ctx),\n            capture_output=True,\n            text=True,\n            encoding=\"utf-8\",",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "_IS_WINDOWS",
+        "kind": 5,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "_IS_WINDOWS = os.name == \"nt\"\nclass CommandSafetyChecker:\n    \"\"\"Lightweight heuristic guardrail for terminal commands.\"\"\"\n    _BLOCKED = {\n        \"format\",\n        \"mkfs\",\n        \"diskpart\",\n        \"shutdown\",\n        \"reboot\",\n    }",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "_CONFIRM_PATTERN",
+        "kind": 5,
+        "importPath": "agent_app.terminal_tools",
+        "description": "agent_app.terminal_tools",
+        "peekOfCode": "_CONFIRM_PATTERN = re.compile(r\"confirm\\s*:\\s*(yes|true|y)\", re.IGNORECASE)\ndef strip_confirmation(text: str) -> tuple[str, bool]:\n    match = _CONFIRM_PATTERN.search(text)\n    if not match:\n        return text, False\n    cleaned = text[: match.start()] + text[match.end() :]\n    return cleaned.strip(), True\ndef parse_command_text(text: str) -> list[str]:\n    \"\"\"Return argv parsed from the provided command text.\"\"\"\n    argv = shlex.split(text, posix=not _IS_WINDOWS)",
+        "detail": "agent_app.terminal_tools",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.main",
+        "description": "scripts.main",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(description=\"Hades basic CLI\")\n    parser.add_argument(\"task\", help=\"High-level instruction, e.g. 'check syntax'\")\n    parser.add_argument(\"--start\", type=str, help=\"Optional start path\", default=None)\n    args = parser.parse_args()\n    start = Path(args.start).resolve() if args.start else None\n    result = run_basic_task(args.task, start=start)\n    print(result)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "scripts.main",
+        "documentation": {}
+    },
+    {
+        "label": "summarize",
+        "kind": 2,
+        "importPath": "tests.smoke.test_smoke",
+        "description": "tests.smoke.test_smoke",
+        "peekOfCode": "def summarize(text: str, max_lines: int = 8) -> str:\n    lines = text.strip().splitlines()\n    if len(lines) <= max_lines:\n        return \"\\n\".join(lines)\n    shown = \"\\n\".join(lines[:max_lines])\n    return f\"{shown}\\n... ({len(lines) - max_lines} more lines)\"\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser(description=\"Run Hades smoke tasks\")\n    parser.add_argument(\"--start\", type=Path, default=None, help=\"Project root to analyze\")\n    args = parser.parse_args()",
+        "detail": "tests.smoke.test_smoke",
+        "documentation": {}
+    }
+]
