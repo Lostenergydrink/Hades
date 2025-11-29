@@ -48,7 +48,7 @@
 ### Core Specialists & Safety (Steps 5‑10) `[Phase 2 & Phase 3](Hades/ROADMAP.md#phase-2-core-agent-implementation-code--test)`
 5.  **Introduce Pre-flight Validation Command** – Add a `validate-tools` or `check-env` task that verifies required executables (`git`, `ruff`), model endpoints, and tracing collectors are available and configured correctly.
 6.  **Implement User Confirmation for Plans & Ops** – Before executing a multi-step plan from the Router or a high-risk command from the Thanatos, require user approval. Decide on synchronous (`input()`) vs. asynchronous (e.g., web UI) confirmation flow.
-7.  **Extend StyxAgent** – add TransactionContext checkpointing under `.apex/checkpoints/<run_id>/`, enforce scope against `AgentRequest.context`, wrap `apply_patch` helpers, honor registry paths, and add diagnostics tests.
+7.  **Extend StyxAgent** – add TransactionContext checkpointing under `.hades/checkpoints/<run_id>/`, enforce scope against `AgentRequest.context`, wrap `apply_patch` helpers, honor registry paths, and add diagnostics tests.
 8.  **Build Persephone** – add venv-aware command helpers (reusing `python_tools` style), parse stdout/stderr into structured suites, and attach `ChangeManifest` references for Router summaries; include failure-hand-off metadata.
 9.  **Wire multi-hop context passing** – extend `AgentRequest` to carry `upstream_results: list[AgentResult]` so the Test Runner knows which files changed and the Hermes (Hermes (Web Automation)) can see prior artifacts.
 10. **End-to-end smoke test** – run a real "fix bug → run tests" scenario to validate rollback, confirmations, and context passing before investing in Router intelligence.

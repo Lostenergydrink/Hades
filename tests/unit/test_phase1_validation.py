@@ -56,7 +56,7 @@ class TestHITLConfirmation:
 
     def test_thanatos_agent_sets_confirmation_flag(self):
         """Verify terminal agent properly sets confirmation_required for risky commands"""
-        from agent_app.agents.terminal.thanatos_agent import ThanatosAgent
+        from agent_app.agents.thanatos.thanatos_agent import ThanatosAgent
         from agent_app.context_inspector import ProjectContext
 
         agent = ThanatosAgent()
@@ -214,7 +214,7 @@ class TestConfigSystem:
         """Verify registry respects IGNORE_DIRS"""
         from agent_app.registry import IGNORE_DIRS
         
-        assert ".apex" in IGNORE_DIRS, ".apex should be in IGNORE_DIRS"
+        assert ".hades" in IGNORE_DIRS, ".hades should be in IGNORE_DIRS"
         assert ".venv" in IGNORE_DIRS, ".venv should be in IGNORE_DIRS"
         assert "__pycache__" in IGNORE_DIRS, "__pycache__ should be in IGNORE_DIRS"
 
@@ -224,13 +224,18 @@ class TestChangeManifestIntegration:
 
     def test_styx_agent_emits_change_manifest(self):
         """Verify StyxAgent emits ChangeManifest for launcher creation"""
-        from agent_app.agents.code.styx_agent import StyxAgent
+        from agent_app.agents.styx.styx_agent import StyxAgent
         from agent_app.context_inspector import ProjectContext
         
         agent = StyxAgent()
         
         with TemporaryDirectory() as tmpdir:
-            ctx = ProjectContext(root=Path(tmpdir), venv=None, requirements=None)
+            # Create a dummy Python file so registry can find an entry point
+            root = Path(tmpdir)
+            main_file = root / "main.py"
+            main_file.write_text("# Entry point\nprint('Hello')\n")
+            
+            ctx = ProjectContext(root=root, venv=None, requirements=None)
             from agent_app.agents.base import AgentRequest
             from agent_app.registry import ProjectRegistry
             

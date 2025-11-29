@@ -3,7 +3,7 @@ Checkpoint and rollback system for Hades.
 
 Provides file-level snapshot and restoration capabilities to enable
 safe rollback of multi-file agent operations. Checkpoints are stored
-in .apex/checkpoints/<checkpoint_id>/ and can be restored atomically.
+in .hades/checkpoints/<checkpoint_id>/ and can be restored atomically.
 """
 
 from __future__ import annotations
@@ -21,7 +21,7 @@ class CheckpointManager:
 
     def __init__(self, root: Path) -> None:
         self.root = root
-        self.checkpoint_dir = root / ".apex" / "checkpoints"
+        self.checkpoint_dir = root / ".hades" / "checkpoints"
         self.checkpoint_dir.mkdir(parents=True, exist_ok=True)
 
     def create_checkpoint(self, files: Sequence[Path], description: str = "") -> str:

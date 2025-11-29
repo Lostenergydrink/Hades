@@ -1,4 +1,4 @@
-"""Metric logging utilities for Apex Agent."""
+"""Metric logging utilities for Hades."""
 import json
 from datetime import datetime
 from pathlib import Path

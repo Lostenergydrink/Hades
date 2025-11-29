@@ -77,7 +77,7 @@ Tasks are configured in `.vscode/tasks.json` and can be run via:
 - Terminal → Run Task
 
 Available tasks:
-- **Launch Apex Agent**
+- **Launch Hades**
 - **Run All Tests**
 - **Run Smoke Tests**
 - **Run Unit Tests**

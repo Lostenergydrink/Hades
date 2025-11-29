@@ -25,7 +25,7 @@ IGNORE_DIRS = frozenset(
         "build",
         ".eggs",
         "*.egg-info",
-        ".apex",  # Our own checkpoint/state directory
+        ".hades",  # Our own checkpoint/state directory
     )
 )
 

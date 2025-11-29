@@ -61,7 +61,7 @@ manifest = ChangeManifest(
             operation="modify",
             lines_added=15,
             lines_removed=8,
-            backup_path=Path(".apex/checkpoints/run123/styx_agent.py.bak")
+            backup_path=Path(".hades/checkpoints/run123/styx_agent.py.bak")
         ),
         FileChange(
             path=Path("tests/test_styx.py"),

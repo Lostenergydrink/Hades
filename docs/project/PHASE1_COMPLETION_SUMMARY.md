@@ -37,7 +37,7 @@ User: run pip install dangerous-package
 - `agent_app/agents/furies/furies_agent.py` - Tracks actual file changes
 
 **How It Works:**
-- Before modifying files, creates snapshot in `.apex/checkpoints/`
+- Before modifying files, creates snapshot in `.hades/checkpoints/`
 - Can restore with `CheckpointManager.restore_checkpoint(checkpoint_id)`
 - Automatic for all code changes with risk ≥ MEDIUM
 

@@ -1,6 +1,6 @@
-# Apex Agent Test Suite
+# Hades Test Suite
 
-This directory contains the test suite for the Apex Agent project.
+This directory contains the test suite for the Hades project.
 
 ## Test Organization
 

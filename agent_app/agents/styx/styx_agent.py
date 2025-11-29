@@ -29,13 +29,24 @@ class StyxAgent(ToolLimitedAgent):
 
 	def handle(self, request: AgentRequest) -> AgentResult:
 		normalized = request.normalized_task
-		target = request.registry.default_entrypoint()
+		
+		# Launcher creation doesn't need an entrypoint
+		if "launcher" in normalized:
+			return self._handle_launcher(request)
+		
+		# Other tasks require a valid entrypoint
+		try:
+			target = request.registry.default_entrypoint()
+		except FileNotFoundError:
+			return AgentResult(
+				output="No Python files found in project. Cannot determine entry point.",
+				success=False,
+			)
+		
 		if normalized.startswith("check syntax"):
 			return self._handle_syntax(target)
 		if "import" in normalized:
 			return self._handle_imports(target, request)
-		if "launcher" in normalized:
-			return self._handle_launcher(request)
 		return AgentResult(
 			output=(
 				"Code agent does not yet support this task. "

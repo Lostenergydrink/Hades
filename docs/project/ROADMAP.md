@@ -44,7 +44,7 @@ This phase focuses on creating a robust and scalable project structure and imple
 **3. Build Safety & Validation Mechanisms:**
    - **Pre-flight Validator:** Implement a `check-env` task to verify that essential tools (`git`, `ruff`, etc.) and services are available.
    - **Human-in-the-Loop (HITL) Confirmation:** Implement a user approval step in the orchestrator for all generated plans and high-risk operations.
-   - **Transactional Checkpoints:** The `StyxAgent` will save the state of files to a `.apex/checkpoints/` directory before modification, enabling a simple rollback mechanism.
+   - **Transactional Checkpoints:** The `StyxAgent` will save the state of files to a `.hades/checkpoints/` directory before modification, enabling a simple rollback mechanism.
 
 **Phase 1 Exit Criteria:**
 - ✅ All agents successfully moved to package structure with imports working

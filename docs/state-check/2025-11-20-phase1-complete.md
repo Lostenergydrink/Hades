@@ -90,7 +90,7 @@ Implemented full checkpoint system in `checkpoint.py`:
 
 **Integration:**
 - Orchestrator automatically creates checkpoints for MEDIUM+ risk operations
-- Checkpoints stored in `.apex/checkpoints/<timestamp>/`
+- Checkpoints stored in `.hades/checkpoints/<timestamp>/`
 - Metadata tracks files, descriptions, timestamps
 
 **Verification:**
@@ -128,7 +128,7 @@ Configuration file created at `config/hades_config.toml` with sections:
 
 **Integration:**
 - `config.py` provides `load_config()` function
-- `registry.py` has `IGNORE_DIRS` including `.apex`, `.venv`, `__pycache__`, etc.
+- `registry.py` has `IGNORE_DIRS` including `.hades`, `.venv`, `__pycache__`, etc.
 - Orchestrator respects checkpoint and tracing settings
 - Agents honor guardrails configuration
 

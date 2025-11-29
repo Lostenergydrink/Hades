@@ -30,7 +30,7 @@ def find_project_root(start: Path | None = None) -> Path | None:
 
 def guess_venv(root: Path) -> Path | None:
     candidates = [
-        CONFIG.apex_root.parent / "venvs" / f"{root.name}",
+        CONFIG.hades_root.parent / "venvs" / f"{root.name}",
         root / ".venv",
     ]
     for base in candidates:

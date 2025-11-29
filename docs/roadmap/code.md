@@ -8,7 +8,7 @@
 - Phase dependencies: requires Phase 1 schemas/checkpoints before Phase 2 work.
 
 ## Upcoming
-- Implement transactional checkpoints under `.apex/checkpoints/`.
+- Implement transactional checkpoints under `.hades/checkpoints/`.
 - Enforce scoped edits using registry metadata and AgentRequest context.
 
 ## Metrics to Capture

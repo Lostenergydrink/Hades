@@ -1,4 +1,4 @@
-# Apex Agent Task Runner
+# Hades Task Runner
 param(
     [Parameter(Position = 0)]
     [ValidateSet('launch', 'test', 'lint', 'clean', 'smoke', 'unit', 'eval', 'check-env')]
@@ -6,16 +6,16 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$ApexRoot = Split-Path -Parent $PSScriptRoot
+$HadesRoot = Split-Path -Parent $PSScriptRoot
 
 function Invoke-Launch {
-    Write-Host "Launching Apex Agent..." -ForegroundColor Cyan
-    & "$ApexRoot\scripts\launch_hades.ps1"
+    Write-Host "Launching Hades..." -ForegroundColor Cyan
+    & "$HadesRoot\scripts\launch_hades.ps1"
 }
 
 function Invoke-Test {
     Write-Host "Running all tests..." -ForegroundColor Cyan
-    Push-Location $ApexRoot
+    Push-Location $HadesRoot
     try {
         python -m pytest tests/
     }
@@ -26,7 +26,7 @@ function Invoke-Test {
 
 function Invoke-Smoke {
     Write-Host "Running smoke tests..." -ForegroundColor Cyan
-    Push-Location $ApexRoot
+    Push-Location $HadesRoot
     try {
         python -m pytest tests/smoke/
     }
@@ -37,7 +37,7 @@ function Invoke-Smoke {
 
 function Invoke-Unit {
     Write-Host "Running unit tests..." -ForegroundColor Cyan
-    Push-Location $ApexRoot
+    Push-Location $HadesRoot
     try {
         python -m pytest tests/unit/
     }
@@ -48,7 +48,7 @@ function Invoke-Unit {
 
 function Invoke-Eval {
     Write-Host "Running evaluation tests..." -ForegroundColor Cyan
-    Push-Location $ApexRoot
+    Push-Location $HadesRoot
     try {
         python -m pytest tests/eval/
     }
@@ -59,7 +59,7 @@ function Invoke-Eval {
 
 function Invoke-Lint {
     Write-Host "Running linters..." -ForegroundColor Cyan
-    Push-Location $ApexRoot
+    Push-Location $HadesRoot
     try {
         python -m ruff check agent_app/ tests/
     }
@@ -70,12 +70,12 @@ function Invoke-Lint {
 
 function Invoke-Clean {
     Write-Host "Cleaning workspace..." -ForegroundColor Cyan
-    & "$ApexRoot\scripts\clean.ps1"
+    & "$HadesRoot\scripts\clean.ps1"
 }
 
 function Invoke-CheckEnv {
     Write-Host "Checking environment..." -ForegroundColor Cyan
-    & "$ApexRoot\scripts\check-env.ps1"
+    & "$HadesRoot\scripts\check-env.ps1"
 }
 
 switch ($Task) {

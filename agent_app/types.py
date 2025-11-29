@@ -69,7 +69,7 @@ class ChangeManifest:
     summary: str = ""
     risk: RiskLevel = RiskLevel.SAFE
     scope_paths: list[Path] = field(default_factory=list)  # Allowed modification paths
-    checkpoint_id: str | None = None  # Links to .apex/checkpoints/<id>/
+    checkpoint_id: str | None = None  # Links to .hades/checkpoints/<id>/
 
     def __post_init__(self) -> None:
         # Auto-compute risk if not explicitly set

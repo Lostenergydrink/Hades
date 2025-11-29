@@ -766,7 +766,7 @@
         "kind": 2,
         "importPath": "agent_app.agent_runner",
         "description": "agent_app.agent_runner",
-        "peekOfCode": "def run_basic_task(task: str, start: Path | None = None) -> str:\n    ctx = load_context(start)\n    if ctx is None:\n        return \"No project context found on E:/AI.\"\n    result = _ORCHESTRATOR.run(task, context=ctx)\n    return _format_result(result)",
+        "peekOfCode": "def run_basic_task(task: str, start: Path | None = None) -> str:\n    ctx = load_context(start)\n    if ctx is None:\n        return \"No project context found.\"\n    result = _ORCHESTRATOR.run(task, context=ctx)\n    return _format_result(result)",
         "detail": "agent_app.agent_runner",
         "documentation": {}
     },
@@ -784,7 +784,7 @@
         "kind": 6,
         "importPath": "agent_app.config",
         "description": "agent_app.config",
-        "peekOfCode": "class AgentConfig:\n    apex_root: Path = E_DRIVE_ROOT / \"Hades\"\n    # Intentionally empty to avoid bias toward historical projects. Override via\n    # env vars or CLI arguments when launching the agent.\n    default_projects: tuple[Path, ...] = ()\n    @classmethod\n    def from_toml(cls, config_path: Path | None = None) -> \"AgentConfig\":\n        \"\"\"Create AgentConfig from TOML file.\"\"\"\n        toml_config = load_config_from_toml(config_path)\n        config = cls()",
+        "peekOfCode": "class AgentConfig:\n    hades_root: Path = PROJECT_ROOT\n    # Intentionally empty to avoid bias toward historical projects. Override via\n    # env vars or CLI arguments when launching the agent.\n    default_projects: tuple[Path, ...] = ()\n    @classmethod\n    def from_toml(cls, config_path: Path | None = None) -> \"AgentConfig\":\n        \"\"\"Create AgentConfig from TOML file.\"\"\"\n        toml_config = load_config_from_toml(config_path)\n        config = cls()",
         "detail": "agent_app.config",
         "documentation": {}
     },
@@ -793,16 +793,16 @@
         "kind": 2,
         "importPath": "agent_app.config",
         "description": "agent_app.config",
-        "peekOfCode": "def load_config_from_toml(config_path: Path | None = None) -> dict:\n    \"\"\"Load configuration from TOML file.\"\"\"\n    if config_path is None:\n        config_path = E_DRIVE_ROOT / \"Hades\" / \"config\" / \"hades_config.toml\"\n    if not config_path.exists():\n        return {}\n    with open(config_path, \"rb\") as f:\n        return tomllib.load(f)\n@dataclass\nclass AgentConfig:",
+        "peekOfCode": "def load_config_from_toml(config_path: Path | None = None) -> dict:\n    \"\"\"Load configuration from TOML file.\"\"\"\n    if config_path is None:\n        config_path = PROJECT_ROOT / \"config\" / \"hades_config.toml\"\n    if not config_path.exists():\n        return {}\n    with open(config_path, \"rb\") as f:\n        return tomllib.load(f)\n@dataclass\nclass AgentConfig:",
         "detail": "agent_app.config",
         "documentation": {}
     },
     {
-        "label": "E_DRIVE_ROOT",
+        "label": "PROJECT_ROOT",
         "kind": 5,
         "importPath": "agent_app.config",
         "description": "agent_app.config",
-        "peekOfCode": "E_DRIVE_ROOT = Path(\"E:/AI\").resolve()\ndef load_config_from_toml(config_path: Path | None = None) -> dict:\n    \"\"\"Load configuration from TOML file.\"\"\"\n    if config_path is None:\n        config_path = E_DRIVE_ROOT / \"Hades\" / \"config\" / \"hades_config.toml\"\n    if not config_path.exists():\n        return {}\n    with open(config_path, \"rb\") as f:\n        return tomllib.load(f)\n@dataclass",
+        "peekOfCode": "PROJECT_ROOT = _find_project_root()\ndef load_config_from_toml(config_path: Path | None = None) -> dict:\n    \"\"\"Load configuration from TOML file.\"\"\"\n    if config_path is None:\n        config_path = PROJECT_ROOT / \"config\" / \"hades_config.toml\"\n    if not config_path.exists():\n        return {}\n    with open(config_path, \"rb\") as f:\n        return tomllib.load(f)\n@dataclass",
         "detail": "agent_app.config",
         "documentation": {}
     },
@@ -838,7 +838,7 @@
         "kind": 2,
         "importPath": "agent_app.context_inspector",
         "description": "agent_app.context_inspector",
-        "peekOfCode": "def guess_venv(root: Path) -> Path | None:\n    candidates = [\n        CONFIG.apex_root.parent / \"venvs\" / f\"{root.name}\",\n        root / \".venv\",\n    ]\n    for base in candidates:\n        scripts_dir = base / \"Scripts\"\n        if (scripts_dir / \"python.exe\").exists():\n            return base\n    return None",
+        "peekOfCode": "def guess_venv(root: Path) -> Path | None:\n    candidates = [\n        CONFIG.hades_root.parent / \"venvs\" / f\"{root.name}\",\n        root / \".venv\",\n    ]\n    for base in candidates:\n        scripts_dir = base / \"Scripts\"\n        if (scripts_dir / \"python.exe\").exists():\n            return base\n    return None",
         "detail": "agent_app.context_inspector",
         "documentation": {}
     },

@@ -1,10 +1,10 @@
 # Configuration Files
 
-This directory contains configuration files for the Apex Agent.
+This directory contains configuration files for Hades.
 
 ## Files
 
-- `hades_config.toml`: Main configuration file for the Apex Agent system.
+- `hades_config.toml`: Main configuration file for the Hades system.
 
 ## Configuration Sections
 

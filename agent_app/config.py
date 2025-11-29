@@ -33,9 +33,18 @@ def load_config_from_toml(config_path: Path | None = None) -> dict:
         return tomllib.load(f)
 
 
+def load_config(config_path: Path | None = None) -> dict:
+    """
+    Public helper to load the Hades configuration.
+
+    This matches the function referenced by the Phase 1 docs and tests.
+    """
+    return load_config_from_toml(config_path)
+
+
 @dataclass
 class AgentConfig:
-    apex_root: Path = PROJECT_ROOT
+    hades_root: Path = PROJECT_ROOT
     # Intentionally empty to avoid bias toward historical projects. Override via
     # env vars or CLI arguments when launching the agent.
     default_projects: tuple[Path, ...] = ()

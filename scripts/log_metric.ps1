@@ -17,9 +17,9 @@ param(
     [bool]$Success = $true
 )
 
-$ApexRoot = Split-Path -Parent $PSScriptRoot
+$HadesRoot = Split-Path -Parent $PSScriptRoot
 
-Push-Location $ApexRoot
+Push-Location $HadesRoot
 try {
     if ($Type -eq 'registry') {
         python -c @"

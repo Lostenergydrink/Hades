@@ -1,10 +1,10 @@
-# Apex Agent Scripts
+# Hades Scripts
 
-This directory contains operational scripts for launching, testing, and maintaining the Apex Agent.
+This directory contains operational scripts for launching, testing, and maintaining Hades.
 
 ## Entry Points
 
-- `launch_hades.ps1`: PowerShell script to launch the Apex Agent with proper environment setup.
+- `launch_hades.ps1`: PowerShell script to launch Hades with proper environment setup.
 - `main.py`: The main Python entry point for the agent.
 
 ## Utility Scripts
@@ -34,7 +34,7 @@ For consistent task execution across the team, use the provided task runner:
 
 ### Using tasks.json (VS Code)
 Press `Ctrl+Shift+P` and select "Tasks: Run Task", then choose:
-- `Launch Apex Agent`
+- `Launch Hades`
 - `Run Tests`
 - `Clean Workspace`
 

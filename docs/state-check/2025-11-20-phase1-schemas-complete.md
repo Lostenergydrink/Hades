@@ -101,7 +101,7 @@ python -c "from agent_app.types import AgentResult, ChangeManifest, Diagnostic, 
 
 1. **Registry Optimization** - Add IGNORE_DIRS and update agents to use Diagnostics
 2. **HITL Confirmation Flow** - Wire orchestrator to check `confirmation_required`
-3. **Checkpoint System** - Implement `.apex/checkpoints/` snapshotting
+3. **Checkpoint System** - Implement `.hades/checkpoints/` snapshotting
 4. **Config File** - Create `hades_config.toml` with ignore patterns
 5. **Agent Migration** - Update Code/Thanatoss to emit ChangeManifests
 

@@ -1,10 +1,10 @@
-# Pre-flight environment validator for Apex Agent
+# Pre-flight environment validator for Hades
 # Verifies essential tools and services are available
 
 $ErrorActionPreference = "Stop"
-$ApexRoot = Split-Path -Parent $PSScriptRoot
+$HadesRoot = Split-Path -Parent $PSScriptRoot
 
-Write-Host "`n=== Apex Agent Environment Check ===" -ForegroundColor Cyan
+Write-Host "`n=== Hades Environment Check ===" -ForegroundColor Cyan
 
 $AllGreen = $true
 
@@ -89,7 +89,7 @@ $requiredPaths = @(
 )
 $structureOk = $true
 foreach ($path in $requiredPaths) {
-    $fullPath = Join-Path $ApexRoot $path
+    $fullPath = Join-Path $HadesRoot $path
     if (-not (Test-Path $fullPath)) {
         if ($structureOk) {
             Write-Host " FAIL" -ForegroundColor Red

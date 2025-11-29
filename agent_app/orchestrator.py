@@ -97,6 +97,9 @@ class AgentOrchestrator:
         if agent is None:
             return AgentResult(output=f"Unknown agent: {name}", success=False)
         
+        # Pre-flight checkpointing: snapshot likely targets before writes
+        pre_checkpoint_id = self._maybe_create_pre_checkpoint(name, request)
+        
         result = agent.handle(request)
         
         # Create checkpoint if result has changes and risk is MEDIUM or higher
@@ -113,6 +116,9 @@ class AgentOrchestrator:
             except Exception as e:
                 # Don't fail the operation if checkpoint fails
                 result.metadata["checkpoint_error"] = str(e)
+        elif pre_checkpoint_id:
+            # Surface that a pre-flight checkpoint was taken even if risk was low
+            result.metadata.setdefault("checkpoint_created", pre_checkpoint_id)
         
         # Check if human confirmation is required
         if result.confirmation_required and not result.success:
@@ -123,3 +129,35 @@ class AgentOrchestrator:
             return result
         
         return result
+
+    def _maybe_create_pre_checkpoint(self, name: str, request: AgentRequest) -> str | None:
+        """
+        Take a checkpoint before running an agent if the task suggests writes.
+
+        This is a heuristic stop-gap until agents emit pre-change manifests.
+        """
+        if not (self._enable_checkpoints and self._checkpoint_manager):
+            return None
+
+        task = request.normalized_task
+        files_to_snapshot: list = []
+
+        # Styx launcher generation writes predictable files
+        if name == "code_refactor" and "launcher" in task:
+            launch_path = request.context.root / "launch_generated.ps1"
+            files_to_snapshot.extend([launch_path, launch_path.with_suffix(".bat")])
+
+        # Furies fix mode can rewrite the default entrypoint
+        if name == "lint_format" and ("--fix" in task or " fix" in task or "format" in task):
+            try:
+                files_to_snapshot.append(request.registry.default_entrypoint())
+            except FileNotFoundError:
+                pass
+
+        if not files_to_snapshot:
+            return None
+
+        try:
+            return self._checkpoint_manager.create_checkpoint(files_to_snapshot, description=f"pre-flight:{name}")
+        except Exception:
+            return None

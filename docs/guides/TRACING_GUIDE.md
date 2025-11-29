@@ -196,7 +196,7 @@ orchestrator = AgentOrchestrator(enable_tracing=False)
 
 Or set environment variable:
 ```powershell
-$env:APEX_DISABLE_TRACING = "1"
+$env:HADES_DISABLE_TRACING = "1"
 ```
 
 ## Integration with Phase 2

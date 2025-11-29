@@ -1,13 +1,13 @@
 # Clean Workspace Script
-# Removes temporary files, caches, and build artifacts from the Apex Agent workspace
+# Removes temporary files, caches, and build artifacts from the Hades workspace
 
 param(
     [switch]$DryRun
 )
 
-$ApexRoot = Split-Path -Parent $PSScriptRoot
+$HadesRoot = Split-Path -Parent $PSScriptRoot
 
-Write-Host "Cleaning Apex Agent workspace..." -ForegroundColor Cyan
+Write-Host "Cleaning Hades workspace..." -ForegroundColor Cyan
 
 # Directories to remove
 $DirsToRemove = @(
@@ -32,7 +32,7 @@ $FilesToRemove = @(
 )
 
 # Checkpoint cleanup
-$CheckpointDir = Join-Path $ApexRoot ".apex\checkpoints"
+$CheckpointDir = Join-Path $HadesRoot ".hades\checkpoints"
 
 # Test artifact cleanup
 $TestArtifactsPattern = "tests\eval\*.tmp"
@@ -40,7 +40,7 @@ $TestArtifactsPattern = "tests\eval\*.tmp"
 function Remove-Paths {
     param([string]$Pattern, [string]$Type)
     
-    $items = Get-ChildItem -Path $ApexRoot -Recurse -Force -Filter $Pattern -ErrorAction SilentlyContinue
+    $items = Get-ChildItem -Path $HadesRoot -Recurse -Force -Filter $Pattern -ErrorAction SilentlyContinue
     
     foreach ($item in $items) {
         if ($DryRun) {
@@ -85,7 +85,7 @@ if (Test-Path $CheckpointDir) {
 }
 
 # Clean test artifacts
-$testArtifacts = Get-ChildItem -Path (Join-Path $ApexRoot "tests\eval") -Filter "*.tmp" -ErrorAction SilentlyContinue
+$testArtifacts = Get-ChildItem -Path (Join-Path $HadesRoot "tests\eval") -Filter "*.tmp" -ErrorAction SilentlyContinue
 foreach ($artifact in $testArtifacts) {
     if ($DryRun) {
         Write-Host "[DRY RUN] Would remove test artifact: $($artifact.FullName)" -ForegroundColor Yellow
