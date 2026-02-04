@@ -1,0 +1,33 @@
+{
+  "name": "hades-playground",
+  "version": "3.2.0",
+  "description": "An unmoored epistemic deliberation utility.",
+  "main": "dist/index.js",
+  "bin": {
+    "hades": "dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup src/index.ts src/cli.ts --format cjs,esm --dts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier -w ."
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.4",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "nanoid": "^5.0.4",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsx": "^4.7.0",
+    "tsup": "^8.0.1",
+    "vitest": "^1.1.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
+  }
+}
